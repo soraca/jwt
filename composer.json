@@ -1,0 +1,22 @@
+{
+    "name": "soar/jwt",
+    "description": "JWT authentication package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Soar\\Jwt\\": "src/"
+        }
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "soar",
+            "email": "420921698@qq.com"
+        }
+    ],
+    "require": {
+      "php": "^8.0",
+      "ext-redis": "*"
+    },
+    "minimum-stability": "stable"
+}
