@@ -1,16 +1,16 @@
 {
-    "name": "soar/jwt",
+    "name": "soraca/jwt",
     "description": "JWT authentication package",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Soar\\Jwt\\": "src/"
+            "Soraca\\Jwt\\": "src/"
         }
     },
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "soar",
+            "name": "soraca",
             "email": "420921698@qq.com"
         }
     ],

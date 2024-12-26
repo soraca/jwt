@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Soar\Jwt;
+namespace Soraca\Jwt;
 
-use Soar\Jwt\Exception\JwtException;
+use Soraca\Jwt\Exception\JwtException;
 use Redis;
 use RedisException;
 
@@ -56,10 +56,10 @@ class Jwt
 
     /**
      * token签发人
-     * <br> 默认值：soar/jwt
+     * <br> 默认值：soraca/jwt
      * @var string
      */
-    protected string $issuer = "soar/jwt";
+    protected string $issuer = "soraca/jwt";
 
     /**
      * redis链接对象
