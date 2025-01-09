@@ -16,7 +16,8 @@
     ],
     "require": {
       "php": "^8.0",
-      "ext-redis": "*"
+      "ext-redis": "*",
+      "ext-curl": "*"
     },
     "minimum-stability": "stable"
 }
