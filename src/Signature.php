@@ -13,7 +13,7 @@ class Signature
      */
     public static function generate(array $data, string $secret) : array
     {
-        $data['timestamp'] = round(microtime(true) * 1000);
+        $data['timestamp'] = intval(microtime(true) * 1000);
         $data['nonce'] = self::Random(16);
         ksort($data);
         return [
